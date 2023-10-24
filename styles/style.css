@@ -1,0 +1,63 @@
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.rectangleDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+li:hover{
+    color: orangered;
+    border-bottom: solid orangered 10px ;
+}
+
+.rectangle{
+    height: 50px;
+    width: 250px;
+    background-color: red;
+}
+
+.rectangleEase{
+    
+    animation: slidein infinite 3s ease 0s ;
+    /* animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-name: slidein; */
+}
+
+.rectangleEaseIn{
+    animation: slidein infinite 3s ease-in 0s ;
+}
+.rectangleEaseOut{
+    animation: slidein infinite 3s ease-out 0s ;
+}
+.rectangleEaseInOut{
+    animation: slidein2 infinite 3s ease-in-out 0s ;
+}
+
+@keyframes slidein {
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
+
+@keyframes slidein2{
+    0%{
+
+    }
+    50%{
+
+    }
+    100%{
+
+    }
+}
